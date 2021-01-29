@@ -1,0 +1,13 @@
+<h2>成果を出すまで辞めないぞ！！</h2>
+
+意気込みへの応援メッセージお願いします
+
+<%= form_for @test, remote: true do |f| %>
+  <%= f.text_field :text %>
+  <%= f.submit '投稿' %>
+<% end %>
+<ul>
+  <%= render @tests %>
+</ul>
+
+<%= link_to 'TOP画面へ', root_path %>
