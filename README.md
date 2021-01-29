@@ -5,14 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
+* Ruby versio 
+rails _5.2.1_ new test-app -d mysql
 * System dependencies
 
 * Configuration
 
 * Database creation
-
+rails db:create
 * Database initialization
 
 * How to run the test suite
@@ -21,4 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+ rails g model test text:string
+ >rails db:migrate
+
+gem 'jquery-rails' 
+> bundle install
+
+app/assets/javascripts/application.js
+>//= require jquery
