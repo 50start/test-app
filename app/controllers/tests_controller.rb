@@ -7,6 +7,7 @@ class TestsController < ApplicationController
     def show
         @tests = Test.all
         @test = Test.new
+        
     end
     
     def create
